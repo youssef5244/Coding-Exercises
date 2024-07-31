@@ -1,7 +1,8 @@
 ## Forwarding Props
 ```
 Your task is to work on the Input component such that it either returns a <textarea>
-element or an <input> element, depending on whether a richText prop set on Input is true or false.
+element or an <input> element, depending on whether a richText prop set on Input is true
+or false.
 I.e., if used like this:
 <Input richText />
 the Input component should render a <textarea>. Otherwise, it should render an <input>.
