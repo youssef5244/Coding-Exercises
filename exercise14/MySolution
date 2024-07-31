@@ -6,6 +6,5 @@ export default function Input({richText,...props}) {
       <input {...props}/>
       }
       </>
-      )
-  
+      )  
 }
