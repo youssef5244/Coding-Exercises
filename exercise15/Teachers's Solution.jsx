@@ -1,4 +1,3 @@
-```
 export default function Button({ children, className, mode = 'filled', Icon, ...props}) {
   let cssClasses = `button ${mode}-button`;
  
@@ -21,4 +20,3 @@ export default function Button({ children, className, mode = 'filled', Icon, ...
     </button>
   );
 }
-```
