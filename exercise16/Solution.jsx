@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Review from './Review';
 // don't change the Component name "App"
 function App() {
     
