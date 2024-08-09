@@ -1,0 +1,27 @@
+import React from 'react'
+
+function App() {
+    const[clicked, setClicked]= React.useState('white');
+    function handleClick(){
+        setClicked('yes');
+    }
+      function handleClick2(){
+        setClicked('no');
+    }
+    return (
+    <div id="app">
+      <h1 style={{color: clicked==='yes' ? 'green' 
+       : clicked==='no' ? 'red' : 'white'}}>CSS is great!</h1>
+      <menu>
+        <li>
+          <button onClick={handleClick}>Yes</button>
+        </li>
+        <li>
+          <button onClick={handleClick2}>No</button>
+        </li>
+      </menu>
+    </div>
+  );
+}
+
+export default App;
