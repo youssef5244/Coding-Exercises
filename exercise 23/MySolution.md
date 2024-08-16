@@ -33,13 +33,12 @@ const email= React.useRef();
 ```
 import React from 'react'
 
-const Any = React.forwardRef( function Input({type, label, ...props}, ref) {
+const Any = React.forwardRef( function Input({ label, ...props}, ref) {
   
   return (
     <p className="control">
       <label>{label}</label>
-      
-      <input ref={ref} type={type} {...props}/>
+      <input ref={ref} {...props}/>
     </p>
   );
 } )
