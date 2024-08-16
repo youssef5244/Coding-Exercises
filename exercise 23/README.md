@@ -11,7 +11,8 @@ But in addition, your task also is to read the entered name and email values ins
 with help of React's "ref" feature.
 To achieve this task, you must ensure that the custom Input component is able to receive the special ref prop and that
 this prop is then "connected" to the returned <input> element.
-Of course you also must add fitting refs to the App component and use them in handleSaveData to retrieve the actual entered input data.
+Of course you also must add fitting refs to the App component and use them in handleSaveData to retrieve the actual entered
+input data.
 The read values must then be stored in the already-existing userData object.
 
 Important: In this Udemy exercise workspace, any React Hooks must be accessed directly on the imported React object 
