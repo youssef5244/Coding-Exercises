@@ -8,6 +8,9 @@ Because that exposed clear() function should call the form's built-in reset() me
 underlying object of the <form> element, has a reset() method that does exactly what its name implies).
 After adding this feature to the Form component you should tweak the App component to establish a "connection" to the Form
 component and call the newly exposed clear() method from inside the App component's handleRestart() function.
+
+Important: In this Udemy exercise workspace, any React Hooks (and other React functions!) must be accessed directly on the
+imported React object (import React from 'react') - for example: React.useState().
 ```
 ## Original Code
 
