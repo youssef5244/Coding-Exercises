@@ -15,7 +15,6 @@ The same is true for any functions that are part of the react-dom library - you 
 then call any functions on that ReactDOM object (ReactDOM.someFunction()).
 
 ## Original Code
-
 ### App.js
 ```
 import Toast from './Toast';
