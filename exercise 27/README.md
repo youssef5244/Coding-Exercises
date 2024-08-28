@@ -10,7 +10,8 @@ The three <button> elements should be "connected" to the reducer-managed state (
 changes), the <p id="counter"> element should output the count value.
 
 Important: The state managed with help of the reducer must be an object of the following shape:
-{ count: 0; // of course, 0 is not static but changes as the different <button>s are clicked } 
+{ count: 0; // of course, 0 is not static but changes as the different <button>s are clicked }
+
 When dispatching actions, you should make sure that every action is an object that has a type property (it must 
 be named type - other names will make the automatic checks fail!) that contains either 'INCREMENT', 'DECREMENT'
 or 'RESET' as a value!
